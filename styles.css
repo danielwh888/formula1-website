@@ -47,7 +47,108 @@ ul {
     padding: 150px 200px;
 }
  
+button {
+    border-radius: 8px;
+}
+
 .desctext {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.desctext2 {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.main2 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    padding: 150px 200px;
+    color: black;
+    font-family: 'Roboto', arial;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+#main2title {
+    color: black;
+    font-family: 'Roboto', arial;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 150px 200px;
+    font-family: 'Roboto', arial;
+    font-style: italic;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 50px;
+}
+
+.quote-author {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 50px 200px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #3882f6;
+    gap: 150px;
+    padding: 50px 300px;
+    border-radius: 8px;
+}
+
+.contacttext {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', arial;
+}
+
+.contacttext2 {
+    font-size: 15px;
+    font-family: 'Roboto', arial;
+}
+
+
+
+.footer {
+    display: flex;
+    padding: 25px 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-family: 'Roboto', arial;
+    color: white;
 }
